@@ -1,0 +1,75 @@
+/* Apply styles to the navigation bar */
+nav {
+    background-color: #d6d292; /* yellow background */
+    padding: 10px 0; /* add padding */
+}
+
+nav ul {
+    list-style-type: none; /* remove list bullets */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+    text-align: center; /* center the list items */
+}
+
+nav ul li {
+    display: inline; /* display list items inline */
+}
+
+nav ul li a {
+    display: inline-block; /* display anchor tags as blocks */
+    padding: 10px 20px; /* add padding */
+    text-decoration: none; /* remove underline */
+    color: #000; /* black text color */
+}
+
+nav ul li a:hover {
+    background-color: #ccc; /* change background color on hover */
+}
+
+/* Apply styles to the body element */
+body {
+    background-color: rgb(209, 200, 69); /* yellow background */
+    color: rgb(10, 10, 10); /* black text color */
+    font-family: "Century Gothic", sans-serif; /* Century Gothic as preferred font with fallback options */
+    margin: 0; /* remove default margin */
+    text-transform: capitalize; /* capitalize text */
+    background-image: url('pan.jpg'); /* background image */
+    background-size: cover; /* adjust background size */
+    background-repeat: no-repeat; /* prevent background image from repeating */
+}
+
+/* Apply styles to the header element */
+header {
+    background-color: #d6d292; /* yellow background for header */
+    padding: 20px; /* add padding for better spacing */
+}
+
+/* Apply styles to the wrapper */
+.wrapper {
+    display: flex; /* use flexbox */
+    justify-content: center; /* align content horizontally */
+}
+
+/* Apply styles to the container */
+.container {
+    display: flex; /* use flexbox */
+    justify-content: space-around; /* align content horizontally */
+    padding: 20px; /* add padding for spacing */
+}
+
+/* Apply styles to the ingredients and instructions sections */
+.ingredients, .instructions {
+    width: 45%; /* set width for sections */
+}
+
+/* Apply styles to the ul and ol elements */
+ul, ol {
+    list-style-type: circle; /* change list style */
+    margin-left: 20px; /* Add left margin */
+}
+
+/* Apply styles to the li element */
+li {
+    font-family: 'DIN', sans-serif; /* Use Beirut font with fallback to sans-serif */
+    margin-bottom: 25px; /* add bottom margin for spacing */
+}
